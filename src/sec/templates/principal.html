@@ -1,0 +1,14 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+
+<div class="container">
+	<div class="row">
+	<h2>Bienvenido </h2>
+	<h4>¿Qué desea hacer?</h4>
+		<a class="btn btn-primary btn-large" href="#">Elaborar evaluación</a>
+		<a class="btn btn-primary btn-large" href="{% url 'add_pregunta' %}">Agregar nueva pregunta</a>
+	</div>
+</div>
+
+{% endblock %}
