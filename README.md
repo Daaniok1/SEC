@@ -15,14 +15,11 @@ Pillow (para trabajar con imágenes)
 pip install pillow
 ```
 
-<<<<<<< HEAD
 Django import-export
 ```sh
 pip install django-import-export
 ```
 
-=======
->>>>>>> 68513f41fcf7d871faafc9725eebf6af00303825
 ###Conexión con MySQL
 
 Instalar globalmente MySQL
